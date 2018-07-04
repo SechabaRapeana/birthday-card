@@ -1,23 +1,27 @@
-page-home {
+ page-home {
 
-    background-image: url('../../img/539514919.jpg');
-    background: color($colors, twitter, base);
 
-}
+ }
 
 .container{
-    text-align: center
-    // margin-bottom: 16px
+    text-align: center;
+    border-color: brown
+
 }
 
-// $colors: (
-//   primary:    #488aff,
-//   secondary:  #32db64,
-//   danger:     #f53d3d,
-//   light:      #f4f4f4,
-//   dark:       #222,
-//   twitter: (
-//     base: #55acee,
-//     contrast: #ffffff
-//   )
-// );
+.bg{
+    background-image: url("../../assets/imgs/imagesbg.jpg");
+}
+.wish{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.fan{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.b{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
